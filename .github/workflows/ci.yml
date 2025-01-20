@@ -39,5 +39,5 @@ jobs:
         run: |
           npm install remark-cli remark-preset-lint-consistent
           echo test
-          npx remark _ --use remark-preset-lint-consistent --frail
+          npx remark --use remark-preset-lint-consistent --frail
           
